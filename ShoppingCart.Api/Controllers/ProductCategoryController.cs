@@ -7,9 +7,11 @@ using System.Linq;
 using ShoppingCart.Api.ViewModels;
 using ShoppingCart.Common;
 using ShoppingCart.Common.Contracts;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ShoppingCart.Api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductCategoryController : ControllerBase
