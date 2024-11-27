@@ -1,0 +1,6 @@
+[
+    { "productCategoryId": 1, "description": "Pasta" },
+    { "productCategoryId": 2, "description": "Soda" },
+    { "productCategoryId": 3, "description": "Cheese" },
+    { "productCategoryId": 5, "description": "Crackers" }
+]
