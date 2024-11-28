@@ -18,12 +18,12 @@ CommonExtensions.ConfigureServices(builder.Services);
 
 builder.Services.AddCors(options => 
 {
-    options.AddPolicy(name: _myCorsPolicy,
+    options.AddPolicy(_myCorsPolicy,
                     policy => 
                     {
                         policy.AllowAnyOrigin()
                         .AllowAnyHeader()
-                        .AllowAnyOrigin();
+                        .AllowAnyMethod();
                     });
 });
 
